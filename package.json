@@ -1,0 +1,21 @@
+{
+  "name": "2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "files.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "deploy": "gh-pages -b gh-pages -d ." 
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "homepage": "http://mohamedkhaledmk.github.io/nodejs-farm-project",
+    "express": "^4.18.2",
+    "slugify": "^1.6.6"
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  }
+}
