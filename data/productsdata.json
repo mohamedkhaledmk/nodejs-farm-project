@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "productName": "Sweet Corns",
+    "image": "🌽",
+    "from": "USA",
+    "nutrients": ["Vitamin A", "Vitamin C", "Fiber"],
+    "quantity": "500g",
+    "price": 2.99,
+    "organic": false,
+    "description": "Fresh sweet corns, perfect for grilling or boiling."
+  },
+  {
+    "id": 2,
+    "productName": "Fresh Avocados",
+    "image": "🥑",
+    "from": "Mexico",
+    "nutrients": ["Healthy Fats", "Fiber", "Vitamin K"],
+    "quantity": "1 piece",
+    "price": 1.49,
+    "organic": true,
+    "description": "Ripe and creamy avocados, great for salads or guacamole."
+  },
+  {
+    "id": 3,
+    "productName": "Juicy Watermelon",
+    "image": "🍉",
+    "from": "Spain",
+    "nutrients": ["Vitamin C", "Potassium", "Water"],
+    "quantity": "1 whole",
+    "price": 5.99,
+    "organic": false,
+    "description": "Refreshingly sweet watermelon, perfect for hot summer days."
+  },
+  {
+    "id": 4,
+    "productName": "Organic Strawberries",
+    "image": "🍓",
+    "from": "Italy",
+    "nutrients": ["Vitamin C", "Folate", "Antioxidants"],
+    "quantity": "250g",
+    "price": 3.49,
+    "organic": true,
+    "description": "Plump and juicy organic strawberries, a healthy treat."
+  }
+]
