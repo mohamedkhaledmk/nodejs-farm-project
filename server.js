@@ -23,7 +23,7 @@ const server = http.createServer((req, res) => {
   const { pathname, query } = url.parse(req.url, true);
   const pathName = pathname;
   //overview
-  if (pathName === "/") {
+  if (pathName === "/overview") {
     res.writeHead(200, {
       "content-type": "text/html",
     });
