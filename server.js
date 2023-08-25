@@ -3,7 +3,7 @@ const http = require(`http`);
 const url = require(`url`);
 const fs = require(`fs`);
 const slugify = require(`slugify`);
-
+const PORT = process.env.PORT || 8000;
 const replaceTemplate = require("./modules/replaceTemplate.js");
 //top level code(outside call backs are executed only once when the code starts so we put reading file outside the create server function to avoid running it on each request)
 //readfile
@@ -60,10 +60,10 @@ const server = http.createServer((req, res) => {
 
 // listen to server requests
 server.listen(
-  8000,
-  /*optional to give the standard ip for local host*/ `127.0.0.1`,
+  PORT,
+  // /*optional to give the standard ip for local host*/ `127.0.0.1`,
   () => {
-    console.log(`listening on PORT 8000 `);
+    console.log(`listening on PORT ${PORT}`);
   }
 );
 // if not given the standard ip => it would be the same result (default is local host)
